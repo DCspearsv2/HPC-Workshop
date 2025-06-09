@@ -6,6 +6,9 @@
 #include "code.h"
 
 // GLOBALS
+ HEAD
+//AX
+4cfd44d (Hello World)
 
 //FUNCTIONS
 // welcome message
@@ -17,7 +20,11 @@ void welcome_message()
 // get group name
 void get_name(char* name)
 {
+<<<<<<< HEAD
     printf("Enter group name :DCspearsv2 ");
+=======
+    printf("Enter group name :DC Spearsv2");
+>>>>>>> 4cfd44d (Hello World)
     gets(name);
 }
 
